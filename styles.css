@@ -33,7 +33,8 @@ aside {
   left: 0;
   top: 0;
   font-size: 1.5em;
-  
+  margin-right: 1em;
+  color: Ivory; 
 }
 
 th {
@@ -78,10 +79,6 @@ form {
 legend {
   font-family: 'Arial Black', 'Tahoma', sans-serif;
   font-size: 2em;
-}
-
-#listing {
-
 }
 
 img {
