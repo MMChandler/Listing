@@ -1,18 +1,18 @@
 * {
   font-family: 'Tahoma', 'arial', sans-serif;
-  font-size: 106%
+  font-size: 100%;
 }
 
 body {
   background-image: url("https://i.imgur.com/fXi7I92.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: ;
 }
 
 #mainContainer {
   background-color: rgba(255, 255, 255, 0.93);
   width: 1200px;
-  height: 1000px;
+  height: 3000px;
   margin: 0 auto;
 }
 
@@ -22,7 +22,8 @@ aside {
   color: ivory;
   padding: 2em;
   width: 200px;
-  text-align: center
+  text-align: center;
+
 }
 
 #cart{
@@ -31,7 +32,8 @@ aside {
   height: 100%;
   left: 0;
   top: 0;
-  font-size: .5em
+  font-size: .5em;
+  margin-right: ;
 }
 
 th {
@@ -46,7 +48,6 @@ td {
   border-top: none;
   padding-top: 1em;
   padding-bottom: 1em;
-  color: Ivory;
 }
 
 #cartBtn:hover {
@@ -85,18 +86,32 @@ legend {
 img {
   float: left;
   border: 1px solid black;
+  height: 200px;
+  float: left;
 }
-#smallImage {
-  width: 330px;
-}
-
 article {
+  font-size: .7em;
+  float: left;
   padding: 1em;
-  margin-left: 36em;
   margin-right: 1em;
-  margin-top: 4em;
+  width: 20%
 }
 
+.narrow {
+  padding-right: .4em;
+}
+
+#tree{
+  padding-right: 22em;
+}
+
+#wheels{
+  padding-right: 15em;
+}
+
+#hat{
+  padding-right: 6.7em;
+}
 #a1, #a2, #a3 {
   text-decoration: none;
   color: Ivory;
@@ -133,12 +148,12 @@ a:active {
 }
 
 input[type='submit'] {
-  margin-right: 200px;
+  margin-right: 337px;
   width: 200px;
   background: red;
   border-radius: 10%;
   float: right;
-  margin-left: 300px;
+  margin-left: 0;
   box-shadow: 1px 1px 10px;
 
 }
@@ -148,4 +163,13 @@ input[type='submit']:hover {
   background: black;
   font-weight: 700;
   box-shadow: 3px 3px 40px violet;
+}
+
+table {
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+#itemSpacer {
+  margin-top: 3.3em;
 }

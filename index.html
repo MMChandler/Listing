@@ -25,20 +25,25 @@
     <table>
       <tr><th>item</th><th>price</th><th>quantity</th></tr>
      <tr> <td>Slick Wheel</td><td>110.00</td><td>4</td></tr>
-      <tr><td>SmellyTree</td><td>2.00</td><td>1</td></tr>
+      <tr><td>SmellyTree</td><td>2.00</td><td>1</td>
+        <tr><td>Logo Hat</td><td>15.00</td><td>1</td>
+      </tr>
     </table><p />
 
     <p>
-      Cart total: $<span id=cartTotal>442.00<span>
+      Cart total: $<span id=cartTotal>457.00<span>
     </p>
       <input type=button value="Edit Cart" id="cartBtn" />
     </fieldset>
   </form>
+    Questions? <a href="mailto:car@car.car"> Contact Us</a>
   </aside>
-  <!--End sidebars-->
+  <!--End sidebars////////////////////////////////////////////////////////////-->
 
   <form id="listing">
     <legend>Customize Your Ride</legend>
+    <hr />
+    <!--Listing 1////////////////////////////////////////////////////////////-->
       Item #0001274x --
       Fuzzy Seat Covers<br />
     <img src="https://i.imgur.com/vO4HRyY.png" alt="fuzzy seat covers" />
@@ -53,10 +58,10 @@
       <br />• 100% awesome
       <br />• Comes in 12 colors!
       <br />• Real Mammoth Fur!
-      <br />• Only $5,000 US/seat
+
       </article>
-    <br />
-    <label for="howMany"> Tell Us How Many to Send You</label><br />
+    Only $5,000 US/seat<br />
+    <label for="howMany"> Order quantity:</label><br />
     <input type=number id='howMany' placeholder=1 value=1 />
     <p />
     <label for='promo'>Do you have a coupon code?</label>
@@ -65,8 +70,234 @@
     <br />
       <br />
       <input type="submit" value="Add to Cart"><br/>
-    Price includes express shipping via robot, straight to your car door. This item is non-returnable.<p />
-    Questions? <a href="mailto:car@car.car"> Contact Us</a>
+<!--Listing 2////////////////////////////////////////////////////////////-->
+    <p id='itemSpacer' />
+
+    Item #0001272a --
+      Smelly Tree<br />
+    <img src="https://i.imgur.com/wW6mNa9.jpg" alt="air freshener" />
+      <br />
+<article class='narrow' id='tree'>
+    Fashion and comfort--who could ask for more?!?
+      <p />
+      <br />• Hangs on the mirror
+      <br />• Smells like Strawberries!
+      <br />• It's a classic
+
+      </article>
+
+    Only $2 <br />
+    <label for="howMany"> Order quantity:</label><br />
+    <input type=number id='howMany' placeholder=1 value=1 />
+    <p />
+    <label for='promo'>Do you have a coupon code?</label>
+    <br />
+    <input type=text id='promo' placeholder='ENTER PROMO CODE' />
+    <br />
+      <br />
+      <input type="submit" value="Add to Cart"><br/>
+<!--Listing 3////////////////////////////////////////////////////////////-->
+    <p id='itemSpacer' />
+    Item #0001384x --
+      Slick Wheels<br />
+    <img src="https://i.imgur.com/fR7Eu5q.jpg" alt="fancy wheels" />
+
+    <article class='narrow' id='wheels'>
+    Steel Rims
+      <p />
+      <br />• Lightweight
+      <br />• Racing Tested
+      <br />• Variety of Sizes available
+
+
+      </article>
+
+    $110 / wheel<br />
+    <label for="howMany"> Order quantity:</label><br />
+    <input type=number id='howMany' placeholder=1 value=1 />
+    <p />
+    <label for='promo'>Do you have a coupon code?</label>
+    <br />
+    <input type=text id='promo' placeholder='ENTER PROMO CODE' />
+    <br />
+      <br />
+      <input type="submit" value="Add to Cart"><br/>
+
+<!--Listing 4////////////////////////////////////////////////////////////-->
+    <p id='itemSpacer' />
+    Item #100127b --
+      Logo Hat<br />
+    <img src="https://i.imgur.com/rQbrAik.jpg" alt="man in hat" />
+
+    <article class='narrow' id='hat'>
+    Wow. This is the hat you NEED.
+      <p />
+      <br />• Men's/Women's sizes
+      <br />• Keep comfy in the sun/rain
+      <br />• Logo of your choosing
+      <br />• Felt
+
+      </article>
+
+    Only $57 <br />
+    <label for="howMany"> Order quantity:</label><br />
+    <input type=number id='howMany' placeholder=1 value=1 />
+    <p />
+    <label for='promo'>Do you have a coupon code?</label>
+    <br />
+    <input type=text id='promo' placeholder='ENTER PROMO CODE' />
+    <br />
+      <br />
+      <input type="submit" value="Add to Cart"><br/>
+<!--Listing 5////////////////////////////////////////////////////////////-->
+    <p id='itemSpacer' />
+    Item #0001256y --
+      Plugs<br />
+    <img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+
+    <article class='narrow'>
+    Spark Plugs!
+      <p />
+      <br />• Many make/model combos
+      <br />• Makes sparks
+      <br />• Gas goes 'BOOM'
+
+      </article>
+
+    Price varies/model<br />
+    <label for="howMany"> Order quantity:</label><br />
+    <input type=number id='howMany' placeholder=1 value=1 />
+    <p />
+    <label for='promo'>Do you have a coupon code?</label>
+    <br />
+    <input type=text id='promo' placeholder='ENTER PROMO CODE' />
+    <br />
+    <br />
+    <input type="submit" value="Add to Cart"><br/>
+<!--Listing 6////////////////////////////////////////////////////////////-->
+<p id='itemSpacer' />
+Item #0003244x --
+  Brake pads<br />
+<img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+<article class='narrow'>
+HiPo pads for sports cars
+  <p />
+  <br />• Keeps cool
+  <br />• Stops your car
+  <br />• May be a little rusty
+  <br />• Possibly from a junk yard
+
+  </article>
+
+$43/pair<br />
+<label for="howMany"> Order quantity:</label><br />
+<input type=number id='howMany' placeholder=1 value=1 />
+<p />
+<label for='promo'>Do you have a coupon code?</label>
+<br />
+<input type=text id='promo' placeholder='ENTER PROMO CODE' />
+<br />
+<br />
+<input type="submit" value="Add to Cart"><br/>
+<!--Listing 7////////////////////////////////////////////////////////////-->
+<p id='itemSpacer' />
+Item #00012345t --
+  Billet Door Handles<br />
+<img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+<article>
+Carved from machined aluminum, pair
+  <p />
+  <br />• Opens Doors
+  <br />• Looks great!
+  <br />• Many make/model combos
+
+  </article>
+
+Only $117/pair US/seat<br />
+<label for="howMany"> Order quantity:</label><br />
+<input type=number id='howMany' placeholder=1 value=1 />
+<p />
+<label for='promo'>Do you have a coupon code?</label>
+<br />
+<input type=text id='promo' placeholder='ENTER PROMO CODE' />
+<br />
+<br />
+<input type="submit" value="Add to Cart"><br/>
+<!--Listing 8////////////////////////////////////////////////////////////-->
+<p id='itemSpacer' />
+Item #00328872 --
+  Dual pipe muffler--Nissan<br />
+<img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+<article>
+Twin Powder-coated pipes, race tuned
+  <p />
+  <br />• Fits Nissans 2000 +
+  <br />• For twin 6 block
+  <br />• Welded steel
+
+  </article>
+
+Only $359.75 <br />
+<label for="howMany"> Order quantity:</label><br />
+<input type=number id='howMany' placeholder=1 value=1 />
+<p />
+<label for='promo'>Do you have a coupon code?</label>
+<br />
+<input type=text id='promo' placeholder='ENTER PROMO CODE' />
+<br />
+<br />
+<input type="submit" value="Add to Cart"><br/>
+
+<!--Listing 9////////////////////////////////////////////////////////////-->
+<p id='itemSpacer' />
+Item #1201274z --
+  Lock Knobs<br />
+<img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+<article>
+Door lock knobs
+  <p />
+  <br />• ABS plastic
+  <br />• Econo model
+  <br />• Fits most vehicles
+
+  </article>
+
+Only $0.75 each<br />
+<label for="howMany"> Order quantity:</label><br />
+<input type=number id='howMany' placeholder=1 value=1 />
+<p />
+<label for='promo'>Do you have a coupon code?</label>
+<br />
+<input type=text id='promo' placeholder='ENTER PROMO CODE' />
+<br />
+<br />
+<input type="submit" value="Add to Cart"><br/>
+<!--Listing 10 ////////////////////////////////////////////////////////////-->
+
+<p id='itemSpacer' />
+Item #0001274x --
+  Suspension Springs<br />
+<img src="https://i.imgur.com/7li2ZO9.jpg" alt="car part" />
+<article>
+All Makes and Models Available
+  <p />
+  <br />• High-Tension
+  <br />• Excellent cornering
+  <br />• Tested on F1 tracks
+  <br />• Import
+
+  </article>
+
+Only $225 each<br />
+<label for="howMany"> Order quantity:</label><br />
+<input type=number id='howMany' placeholder=1 value=1 />
+<p />
+<label for='promo'>Do you have a coupon code?</label>
+<br />
+<input type=text id='promo' placeholder='ENTER PROMO CODE' />
+<br />
+<br />
+<input type="submit" value="Add to Cart"><br/>
   </form>
 </div>
 </body>
