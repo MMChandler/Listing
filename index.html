@@ -1,0 +1,73 @@
+</html>
+<head>
+  <title>Listing</title>
+  <link rel=stylesheet type=text/css href="styles.css">
+</head>
+<body>
+<div id='mainContainer'>
+  <aside id='sidebar'>
+    <a href='_blank' id='a1'>Checkout</a>
+  </aside>
+  <aside id='sidebar2'>
+    <a href='_blank' id='a2'>Keep Shopping</a>
+
+  </aside>
+
+    </aside>
+  <aside id='sidebar3'>
+    <a href='_blank' id='a3'>Remove from Cart</a>
+
+  </aside>
+
+  <aside id=cart>Your Items
+  <form><fieldset>
+    <legend>Cart</legend>
+    <table>
+      <tr><th>item</th><th>price</th><th>quantity</th></tr>
+     <tr> <td>Slick Wheel</td><td>110.00</td><td>4</td></tr>
+      <tr><td>SmellyTree</td><td>2.00</td><td>1</td></tr>
+    </table><p />
+
+    <p>
+      Cart total: $<span id=cartTotal>442.00<span>
+    </p>
+      <input type=button value="Edit Cart" id="cartBtn" />
+    </fieldset>
+  </form>
+  </aside>
+  <!--End sidebars-->
+
+  <form id="listing">
+    <legend>Customize Your Ride</legend>
+      Item #0001274x --
+      Fuzzy Seat Covers<br />
+    <img src="https://i.imgur.com/vO4HRyY.png" alt="fuzzy seat covers" />
+    <img id='smallImage' src="https://i.imgur.com/JzYSKpH.jpg" alt="colors of seat covers" />
+    <article>
+    Fashion and comfort--who could ask for more?!?
+      <p />
+      <br />• Stretches to fit your ride
+      <br />• For bucket seats
+      <br />• Warm
+      <br />• Fuzzy
+      <br />• 100% awesome
+      <br />• Comes in 12 colors!
+      <br />• Real Mammoth Fur!
+      <br />• Only $5,000 US/seat
+      </article>
+    <br />
+    <label for="howMany"> Tell Us How Many to Send You</label><br />
+    <input type=number id='howMany' placeholder=1 value=1 />
+    <p />
+    <label for='promo'>Do you have a coupon code?</label>
+    <br />
+    <input type=text id='promo' placeholder='ENTER PROMO CODE' />
+    <br />
+      <br />
+      <input type="submit" value="Add to Cart"><br/>
+    Price includes express shipping via robot, straight to your car door. This item is non-returnable.<p />
+    Questions? <a href="mailto:car@car.car"> Contact Us</a>
+  </form>
+</div>
+</body>
+</html>

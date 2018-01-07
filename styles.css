@@ -1,0 +1,150 @@
+* {
+  font-family: 'Tahoma', 'arial', sans-serif;
+  font-size: 106%
+}
+
+body {
+  background-image: url("https://i.imgur.com/fXi7I92.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainContainer {
+  background-color: rgba(255, 255, 255, 0.93);
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+aside {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: ivory;
+  padding: 2em;
+  width: 200px;
+  text-align: center
+}
+
+#cart{
+  padding: 2em;
+  width: 200px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  font-size: .5em
+}
+
+th {
+  background: Ivory;
+  color: black;
+}
+
+td {
+  border: 1px solid Ivory;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#cartBtn:hover {
+  background: black;
+  color: Ivory;
+}
+
+#sidebar {
+  right: 10px;
+  top: 22px;
+}
+
+#sidebar2 {
+ right: 10px;
+  top: 200px;
+}
+
+#sidebar3 {
+ right: 10px;
+  top: 388px;
+}
+
+form {
+  margin: 2%;
+}
+
+legend {
+  font-family: 'Arial Black', 'Tahoma', sans-serif;
+  font-size: 2em;
+}
+
+#listing {
+
+}
+
+img {
+  float: left;
+  border: 1px solid black;
+}
+#smallImage {
+  width: 330px;
+}
+
+article {
+  padding: 1em;
+  margin-left: 36em;
+  margin-right: 1em;
+  margin-top: 4em;
+}
+
+#a1, #a2, #a3 {
+  text-decoration: none;
+  color: Ivory;
+  width: 200px;
+  height: 100px;
+  z-index: 1;
+  padding: 2em;
+  margin: -4em;
+}
+
+#a1 {
+  padding-left: 4.1em;
+  padding-right: 4.1em;
+}
+
+#a2 {
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+}
+
+#a3 {
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+}
+
+a:hover {
+  color: black;
+  background: Ivory;
+}
+
+a:active {
+  background: red;
+  color: darkgrey;
+}
+
+input[type='submit'] {
+  margin-right: 200px;
+  width: 200px;
+  background: red;
+  border-radius: 10%;
+  float: right;
+  margin-left: 300px;
+  box-shadow: 1px 1px 10px;
+
+}
+
+input[type='submit']:hover {
+  color: red;
+  background: black;
+  font-weight: 700;
+  box-shadow: 3px 3px 40px violet;
+}
