@@ -19,11 +19,10 @@ body {
 aside {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.9);
-  color: Ivory;
+  color: ivory;
   padding: 2em;
   width: 200px;
   text-align: center;
-
 }
 
 #cart{
@@ -32,9 +31,8 @@ aside {
   height: 100%;
   left: 0;
   top: 0;
-  font-size: 1.5em;
-  margin-right: 1em;
-  color: Ivory; 
+  font-size: .5em;
+  margin-right: ;
 }
 
 th {
@@ -49,7 +47,6 @@ td {
   border-top: none;
   padding-top: 1em;
   padding-bottom: 1em;
-  color: Ivory;
 }
 
 #cartBtn:hover {
@@ -171,7 +168,3 @@ table {
 #itemSpacer {
   margin-top: 3.3em;
 }
-
-tr {
-  color: Ivory;
-  font-size: 1.5em;
