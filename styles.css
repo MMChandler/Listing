@@ -32,8 +32,8 @@ aside {
   height: 100%;
   left: 0;
   top: 0;
-  font-size: .5em;
-  margin-right: ;
+  font-size: 1.5em;
+  
 }
 
 th {
@@ -174,3 +174,7 @@ table {
 #itemSpacer {
   margin-top: 3.3em;
 }
+
+tr {
+  color: Ivory;
+  font-size: 1.5em;
