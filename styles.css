@@ -19,7 +19,7 @@ body {
 aside {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.9);
-  color: ivory;
+  color: Ivory;
   padding: 2em;
   width: 200px;
   text-align: center;
@@ -48,6 +48,7 @@ td {
   border-top: none;
   padding-top: 1em;
   padding-bottom: 1em;
+  color: Ivory;
 }
 
 #cartBtn:hover {
